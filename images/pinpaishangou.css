@@ -1,0 +1,182 @@
+.pinpai{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-flow: row wrap;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+     width: 100%;
+     justify-content: space-around;
+}
+.pinpai .pinpai-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.pinpai-box-l{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    height: 177.5px;
+    width: 50%;
+    margin-right: 0px;
+    margin-bottom: 6px;
+    background-image: url(../images/pinpai1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pinpai-box-l .p-l-1{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.pinpai-box-l .p-l-1 span{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.pinpai-box-l .p-l-2{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 12px;
+    color: rgb(113, 112, 112);
+    text-align: left;
+    padding-left: 15px;
+    line-height: 15px;
+}
+.pinpai-box-l .p-l-3{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    padding-top: 6px;
+}
+.pinpai-box-l .p-l-3 .p-l-3-1{
+    text-decoration: none;
+    position: relative;
+    width: 50%;
+    height: 109.5px;
+    align-self: center;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start
+}
+
+.pinpai-box-l .p-l-3 .p-l-3-1  .p-pic1{
+    border: 0px solid black;
+    /* position: absolute; */
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 77.5px;
+    background-color: rgba(0, 0, 0, 0.03);
+    top: 0px;
+    left: 0px;
+}
+.pinpai-box-l .p-l-3 .p-l-3-1  .p-pic1 img{
+    display: flex;
+    width: 100%px;
+    height: 72.5px;
+    padding: 2.5px;
+}
+.pinpai-box-l .p-l-3 .p-l-3-1  .p-pic2{
+    white-space: nowrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 10px;
+    color: rgb(255, 28, 77);
+    line-height: 20px;
+    text-align: center;
+    width: 77.5px;
+    overflow: hidden;
+}
+.pinpai-box-l .p-l-3 .p-l-3-1  .p-pic3{
+    white-space: nowrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    line-height: 12px;
+    text-align: center;
+    width: 77.5px;
+    overflow: hidden;
+}
+.pinpai-box-r{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    height: 177.5px;
+    width: 50%;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    background-image: url(../images/pinpai2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

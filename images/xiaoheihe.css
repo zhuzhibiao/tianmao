@@ -1,0 +1,135 @@
+.xiaoheihe{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.xiaoheihe .xiaoheihe-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.xiaoheihe .xiaoheihe-box .xiao-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.xiaoheihe .xiaoheihe-box .xiao-t .xiao-t-l{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    height: 143px;
+    width:50%;
+    margin-right: 3px;
+    background-image: url(../images/new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.xiaoheihe .xiaoheihe-box .xiao-t .xiao-t-l a .xiao-t-l-1{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.xiaoheihe .xiaoheihe-box .xiao-t .xiao-t-l a .xiao-t-l-2{
+white-space: pre-wrap;
+border: 0px solid black;
+position: relative;
+box-sizing: border-box;
+display: block;
+-webkit-box-orient: vertical;
+flex-direction: column;
+align-content: flex-start;
+flex-shrink: 0;
+font-size: 12px;
+color: rgb(113, 112, 112);
+text-align: left;
+padding-left: 15px;
+line-height: 15px;
+}
+.xiao-t-l-3{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 6px;
+    -webkit-box-pack: center;
+}
+.xiao-t-l-3 a{
+    text-decoration: none;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    margin-right: 5px;
+    position: relative;
+}
+.xiao-pic1{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 63px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.xiao-pic1 .p1{
+    display: flex;
+    width: 100%;
+    height: 63px;
+
+}
+.xiao-pic1 .p2{
+    display: flex;
+    width: 100%;
+    height: 41px;
+    position: relative;
+    top: -5px;
+
+}
+.xiao-pic1 span{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    line-height: 12px;
+    text-align: center;
+    top: -32px;
+}

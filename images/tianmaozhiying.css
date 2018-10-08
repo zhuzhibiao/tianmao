@@ -1,0 +1,45 @@
+.tianmaozhiying{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tianmaozhiying-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+   
+}
+.tianmaozhiying-top{
+    /* white-space: pre-wrap; */
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    font-weight: 600;
+    margin-left: 6px;
+    padding: 10px 6px 6px 0px;
+    height: 46px;
+}
+.tianmaozhiying-bottom{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-flow: row wrap;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    width: 100%;
+}
