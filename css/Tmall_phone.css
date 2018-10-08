@@ -1,0 +1,323 @@
+body{
+    background: #ffffff;
+    height: 7500px;
+}
+.box_all{
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+.TM_container{
+    display: flex;
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    place-content: flex-start;
+    flex: 1 1 0%;
+    z-index: 9999999;
+}
+/* 版心 */
+
+/*顶部搜索*/
+.TM_search{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+/* 顶部盒子 */
+.TM_container .TM_search_box{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 99.36px;
+    align-self: center;
+    background-color: rgb(255, 0, 54);
+}
+/* TM 上部标题 */
+.TM_search_box .TM_title{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 48.576px;
+    -webkit-box-pack: center;
+    justify-content: space-around; 
+}
+/* 分类 */
+.TM_search_box  .fenLei{
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 33.12px;
+    overflow: hidden;
+    left: 6%;
+    padding: 7.728px 0px;
+}
+.TM_search_box  .fenLei img{
+    display: flex;
+    width: 331.2px;
+    height: 33.12px;
+}
+/* logo */
+.TM_search_box .TM_title img{
+    display: flex;
+    width: 130.824px;
+    height: 22.632px;
+}
+/* login */
+.TM_search_box .login_box{
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 33.12px;
+    overflow: hidden;
+    right: 6%;
+    line-height: 33.12px;
+    padding: 7.728px 0px;
+}
+.TM_search_box  .login_box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15.456px;
+    align-self: flex-end;
+}
+
+
+/* TM下部搜索 */
+.TM_search_box .TM_search_bottom{
+    text-decoration: none;
+    box-sizing: border-box;
+    align-self: center;
+    padding: 0px 3% 11.04px;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    min-height: 50.784px;
+}
+.TM_search_box .TM_search_bottom  .search_a{
+    text-decoration: none;
+    box-sizing: border-box;
+    align-self: center;
+    padding: 0px 8.53333px 8.53333px;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    min-height: 39.2533px;
+}
+.TM_search_box .TM_search_bottom .search_a .search{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    align-content: flex-start;
+    flex: 1 1 0%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4.416px;
+    -webkit-box-flex: 1;
+}
+.TM_search_box .TM_search_bottom .search_a .search .icon_search{
+    display: flex;
+    width: 16.56px;
+    height: 17.664px;
+    position: relative;
+    margin: 11.04px 11.04px 0px;
+}
+.TM_search_box .TM_search_bottom .search_a .search  span{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 15.456px;
+    background-color: transparent;
+    align-self: center;
+    line-height: 41.952px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.TM_nav{
+    display: flex;
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    place-content: flex-start;
+    justify-content: space-around;
+}
+.TM_nav_box{
+    width: 90%;
+    height: 75px;
+    display: flex;
+    /* background: black; */
+    flex-direction: row;
+   
+    
+
+}
+.TM_nav a{
+    display: block;
+    display: flex;
+    height: 75px;
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+    position: relative;
+}
+.TM_nav a img{
+    position: absolute;
+    display: flex;
+    width:85%;
+    height: 48px;
+    text-align: center;
+   left: 50%;
+    margin-left: -42.5%;
+    bottom: 8px;
+}
+.TM_nav a span{
+    position: absolute;
+    bottom: -10px;
+    white-space: pre-wrap;
+    border: 0px solid black;
+    /* position: relative; */
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    /* left: 10px; */
+
+   
+}
+.TM_banner{
+    min-width: 320px;
+    max-width: 640px;
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    /* place-content: flex-start; */
+    justify-content: space-around;
+}
+.TM_banner .TM_nav_box{
+    width: 90%;
+    height: 132px;
+    /* background: black; */
+    position: relative;
+    overflow: hidden;
+}
+.TM_banner .TM_nav_box .banner_box{
+ 
+    height: 132px;
+}
+.TM_banner .TM_nav_box .banner_box .banner_box_ul{
+    width: 1000%;
+    height: 132px;
+    /* position: absolute; */
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+}
+.TM_banner .TM_nav_box .banner_box .banner_box_ul li{
+   
+    width: 10%;
+    height: 132px;
+    float: left;
+}
+.TM_banner .TM_nav_box .banner_box .banner_box_ul li a img{
+    width: 100%;
+    height: 132px;
+    display: block;
+}
+.phone_circle_box{
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+    height: 3x;
+    bottom: 5px;
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.phone_circle{
+    width: 16px;
+    height: 2px;
+    background: #999;
+    margin:5px 2px;
+    float: left;
+    display: flex;
+    opacity: .6;
+}
+.white{
+    background: #fff;
+}
+.TM_pic{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+.TM_pic a {
+    display: flex;
+    width: 90%;
+    text-decoration:none;
+    justify-content: center;
+    height: 245.5px;
+}
+.TM_pic a img{
+    display: flex;
+    width: 100%;
+    height: 245.5px;
+}

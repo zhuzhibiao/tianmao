@@ -1,0 +1,124 @@
+.jingpin{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+.jingpin-box{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90px;
+    overflow: hidden;
+}
+.j0{
+    width: 23%;
+    height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.j-1{
+    width: 100%;
+    height: 83px;
+    flex-direction: column;
+    align-content: space-around;
+    position: relative;
+    overflow: hidden;
+  
+}
+.j-1 .bg{
+    display: flex;
+    width: 100%;
+    height: 83px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.j-2{
+    border: 0px solid black;
+    position: absolute;
+    top: 66px;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    place-content: flex-start center;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    width: 100%;
+    height: 83px;
+    transform: translate(0px, 0px) scale(1);
+    padding-top: 0px;
+    justify-content: space-between;
+    background: #eee;
+    opacity: .5;
+}
+.j-2-t{
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width:50%;
+    height: 22.5px;
+    /* background-color: rgba(0, 0, 0, 0.03); */
+    top: 5px;
+    left: 20px;
+}
+.j-2-t .zx{
+    display: flex;
+    width: 100%;
+    height: 22.5px;
+    position: absolute;
+    top: -5px;
+    
+}
+.j-2 span{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 24px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -23px;
+}
+.mt-box{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 50%;
+    height: 45px;
+  
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -25%;
+}
+.mt{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+

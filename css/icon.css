@@ -1,0 +1,136 @@
+.icon_1{
+    display: inline-block;
+    background: url(../images/女装内衣.png) no-repeat center center;  
+}
+.icon_2{
+    display: inline-block;
+    background: url(../images/男装.png) no-repeat center center;  
+}
+.icon_3{
+    display: inline-block;
+    background: url(../images/鞋.png) no-repeat center center;  
+}
+.icon_4{
+    display: inline-block;
+    background: url(../images/美妆.png) no-repeat center center;  
+}
+.icon_5{
+    display: inline-block;
+    background: url(../images/珠宝饰品.png) no-repeat center center;  
+}
+.icon_6{
+    display: inline-block;
+    background: url(../images/手机.png) no-repeat center center;  
+}
+.icon_7{
+    display: inline-block;
+    background: url(../images/母婴玩具.png) no-repeat center center;  
+}
+.icon_8{
+    display: inline-block;
+    background: url(../images/面条.png) no-repeat center center;  
+}
+.icon_9{
+    display: inline-block;
+    background: url(../images/生鲜水果.png) no-repeat center center;  
+}
+.icon_10{
+    display: inline-block;
+    background: url(../images/家电.png) no-repeat center center;  
+}
+.icon_11{
+    display: inline-block;
+    background: url(../images/家具建材.png) no-repeat center center;  
+}
+.icon_12{
+    display: inline-block;
+    background: url(../images/汽车.png) no-repeat center center;  
+}
+.icon_13{
+    display: inline-block;
+    background: url(../images/家纺.png) no-repeat center center;  
+}
+.icon_14{
+    display: inline-block;
+    background: url(../images/医药保健.png) no-repeat center center;  
+}
+.icon_15{
+    display: inline-block;
+    background: url(../images/咖啡.png) no-repeat center center;  
+}
+.icon_16{
+    display: inline-block;
+    background: url(../images/图书.png) no-repeat center center;  
+}
+/* 轮播 */
+.back_icon{
+    display:block;
+    width: 1230px;
+    height: 100%;
+   
+}
+.back_icon1{
+    background: url(../images/123.jpg) no-repeat center center;
+   background-image: url(../images/123.jpg);
+    /* background-size: 1230px 499px; */
+}
+.back_icon2{
+    background: url(../images/pic2.jpg) no-repeat center center;
+    /* background-size: 1230px 499px; */
+}
+.back_icon3{
+    background: url(../images/pic3.jpg) no-repeat center center;
+    /* background-size: 1230px 499px; */
+}
+.back_icon4{
+    background: url(../images/pic4.jpg) no-repeat center center;
+    /* background-size: 1230px 499px; */
+}
+.back_icon5{
+    background: url(../images/pic5.jpg) no-repeat center center;
+    /* background-size: 1230px 499px; */
+}
+.back_icon6{
+    background: url(../images/pic6.jpg) no-repeat center center;
+    /* background-size: 1230px 499px; */
+}
+/* logo */
+.small_icon{
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    top: -7px;
+    right: -9px;
+}
+.small_icon1{
+
+}
+/* 右侧导航 */
+.r-icon1{
+    background: url(../images/下载.png);
+}
+.r-icon2{
+    background: url(../images/下载1.png);
+}
+.r-icon3{
+    background: url(../images/下载2.png);
+}
+.r-icon4{
+    background: url(../images/下载3.png);
+}
+.r-icon5{
+    background: url(../images/下载4.png);
+}
+.r-icon6{
+    background: url(../images/下载5.png);
+}
+.r-icon7{
+    background: url(../images/下载6.png);
+}
+.r-icon8{
+    background: url(../images/下载top.png);
+}
+

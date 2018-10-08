@@ -1,0 +1,178 @@
+.weinijingxuan{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.weinijingxuan-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.weini-title{
+    /* white-space: pre-wrap; */
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    padding-left: 12px;
+    font-weight: 600;
+}
+.weini-pic-box{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    /* flex-direction: column; */
+    /* align-content: space-around; */
+    flex-shrink: 0;
+}
+.weini-a{
+    border: 1px solid rgb(237, 237, 237);
+    position: relative;
+    box-sizing: border-box;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 281px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-right: 5px;
+}
+.weini-div{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: space-around;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 15px;
+}
+.weini-div-1{
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    width:100%;
+    height: 138px;
+    background-color: rgb(255, 255, 255);
+}
+.weini-div-1 img{
+    display: flex;
+    width: 80%;
+    height: 138px;
+}
+.weini-div-small{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(136, 163, 192);
+    top: 159px;
+    height: 18px;
+    font-size: 10px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    color: rgb(255, 255, 255);
+}
+.weini-span-bottom{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    top: 179px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    color: rgb(0, 0, 0);
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.weini-price-box{
+    border: 0px solid black;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-shrink: 0;
+    bottom: -110px;
+    width: 170px;
+    -webkit-box-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    /* background: black; */
+}
+.weini-price{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    line-height: 28px;
+    width: 50%;
+}
+.weini-price-box a{
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+   
+}
+.weini-price-box a img{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
